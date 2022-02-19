@@ -1,0 +1,1 @@
+在日常开发中，可能需要用 import 方式引用*.json 文件，但是rollup.js编译原生ES6的 import 引用默认只会解析 *.js 。 这里要在rollup.js编译的源码中使用*.json文件，官方提供了一个插件模块 @rollup/plugin-json
